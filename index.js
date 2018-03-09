@@ -44,7 +44,7 @@ else if (type == "metered"){
         result = "ERROR";
   }
 }
-else if (type == "flats"){
+else if (type == "large envelope"){
   switch(weight) {
     case 1:
         result = 1.00;
@@ -89,7 +89,7 @@ else if (type == "flats"){
         result = "ERROR";
   }
 }
-else if (type == "first-class"){
+else if (type == "first-class packaged"){
 
   switch(weight) {
     case 1:
