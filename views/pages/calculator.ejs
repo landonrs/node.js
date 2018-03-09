@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <form method="GET" action="cResults.html">
+        <label>Enter first number</label><br>
+        <input type="text" name="f_number"><br>
+        <label>Enter second number</label><br>
+        <input type="text" name="s_number"><br>
+        <select name="operation">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">x</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="submit" value="calculate"> 
+    </form>
+</body>
+    </html>
