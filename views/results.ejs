@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<div class="container">
+<h2>Postal Rate</h2>
+<%if (result == "ERROR") { %>
+    <h3>Invalid weight with postal type. Weight must be lighter than 3.5 for that mail type.</h3>
+<% } else { %>
+<h3>The rate for <%= type %> mail weighing <%= weight %> oz. is $<%= result %></h3> 
+<% } %>  
+</div>
+
+</body>
+</html>
